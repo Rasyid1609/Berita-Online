@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        tools:context=".fragment.AddNewsFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul"/>
+
+        <EditText
+            android:id="@+id/edt_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Judul Berita"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isi Berita"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/edt_isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Isi Berita"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Url Gambar"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/edt_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contoh : http://url.com/file.jpg"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
